@@ -213,9 +213,19 @@ ul li{
 }
 .product-item-4 .product-title {
   font-size: 22px;
-  margin-bottom: 15px;
+
   font-weight: 600;
-  
+  height: 100px;
+}
+.product-item-4 .product-description{
+  height: 115px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; 
+  -webkit-box-orient: vertical;
+  cursor: pointer;
+
 }
 .product-item-4 .product-title a{
   color: #071c1f !important;
